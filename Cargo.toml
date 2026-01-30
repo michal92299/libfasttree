@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 description = "A Rust library inspired by libostree, but based on distribution repositories like APT, RPM, Pacman."
 authors = ["Michal92299 <michalkaczmarzyk2009@gmail.com>"]  # Replace with your details for crates.io
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/yourusername/libfasttree"  # Replace with your repo
+license = "MIT"
+repository = "https://github.com/michal92299/libfasttree/"
 keywords = ["ostree", "immutable", "package-manager", "rust"]
 categories = ["os", "filesystem"]
 
