@@ -20,7 +20,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-libfasttree = "0.0.1"
+libfasttree = "0.1.0"
 ```
 
 Note: This library requires root privileges for some operations (e.g., mounting, chown). It depends on various crates like sqlx, tokio, nix, and others—see `Cargo.toml` for the full list.
