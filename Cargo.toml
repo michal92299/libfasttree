@@ -1,6 +1,6 @@
 [package]
 name = "libfasttree"
-version = "0.0.1"
+version = "0.1.0"
 edition = "2021"
 description = "A Rust library inspired by libostree, but based on distribution repositories."
 authors = ["Michal92299 <michalkaczmarzyk2009@gmail.com>"]
@@ -23,7 +23,6 @@ walkdir = "2.5"
 ar = "0.9"
 xz2 = "0.1"
 rpm = "0.14"
-# Nix requires explicit features for filesystem and user management
 nix = { version = "0.28", features = ["fs", "user", "ioctl", "process", "mount", "sched"] }
 flate2 = "1.0"
 xml-rs = "0.8"
@@ -33,5 +32,8 @@ rayon = "1.8"
 gpgme = "0.11"
 bsdiff = "0.1"
 merge3 = "0.2"
-# Fixed version to match sqlx 0.7 requirement (0.26.x)
 libsqlite3-sys = { version = "0.26", features = ["bundled"] }
+sigstore = "0.7.0"
+tss-esapi = "7.2.0"
+fastcdc = "1.1.0"
+tokio-uring = "0.4.0"
